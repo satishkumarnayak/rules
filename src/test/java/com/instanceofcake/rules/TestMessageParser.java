@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class TestMessageParser {
 
-//	@Test
+	@Test
 	public void testMessageParser1() {
 		MessageParser messageParser = new MessageParser();
 		String filePath = "input/132443500.txt";
@@ -20,7 +20,7 @@ public class TestMessageParser {
 
 	}
 	
-//	@Test
+	@Test
 	public void testMessageParser2() {
 		MessageParser messageParser = new MessageParser();
 		String filePath = "input/132443504.txt";
@@ -36,7 +36,7 @@ public class TestMessageParser {
 
 	}
 	
-//	@Test
+	@Test
 	public void testMessageParser3() {
 		MessageParser messageParser = new MessageParser();
 		String filePath = "input/132443500.txt";
@@ -49,7 +49,7 @@ public class TestMessageParser {
 
 	}
 	
-//	@Test
+	@Test
 	public void testMessageParser4() {
 		MessageParser messageParser = new MessageParser();
 		String filePath = "input/132443509.txt";
